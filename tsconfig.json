@@ -8,12 +8,13 @@
     "esModuleInterop": true,
     "noImplicitAny": true,
     "sourceMap": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "types": ["node"],
     "paths": {
-      "*": ["node_modules/*"]
+      "@src/*": ["src/*"]
     }
   },
   "include": ["src/**/*"]

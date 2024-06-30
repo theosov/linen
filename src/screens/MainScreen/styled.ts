@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #181818;
+  display: grid;
+  grid-template-rows: 32px 64px auto;
+  height: 100vh;
 `;
